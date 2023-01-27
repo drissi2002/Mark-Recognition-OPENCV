@@ -15,11 +15,7 @@ choices=5
 ans= [1,2,0,2,4]
 # ----------------------------------------
 count=0
-while True:
 
-#    if webCamFeed:
-#        success, img = cap.read()
-#    else:
     img = cv2.imread(path)
     img = cv2.resize(img, (widthImg, heightImg))
     ## image finale
